@@ -1,0 +1,64 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="BasicAuthenticationHeaderValue.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\netcoreapp3.1\DVPP_PremisesandAwsconnectivity.deps.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\DVPP_PremisesandAwsconnectivity.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\DVPP_PremisesandAwsconnectivity.runtimeconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp3.1\AWSSDK.Core.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\AWSSDK.S3.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\DVPP_PremisesandAwsconnectivity.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\DVPP_PremisesandAwsconnectivity.dll.config" />
+    <None Include="bin\Debug\netcoreapp3.1\DVPP_PremisesandAwsconnectivity.exe" />
+    <None Include="bin\Debug\netcoreapp3.1\DVPP_PremisesandAwsconnectivity.pdb" />
+    <None Include="bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\System.Drawing.Common.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\System.Security.Permissions.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\System.Windows.Forms.dll" />
+    <None Include="bin\System.Configuration.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.Core" Version="3.7.2.4" />
+    <PackageReference Include="AWSSDK.S3" Version="3.7.1.24" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>bin\System.Windows.Forms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
